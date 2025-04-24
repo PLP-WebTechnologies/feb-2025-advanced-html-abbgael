@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lovely</title>
+    
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to the HTML5 Showcase</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Topics Covered</h2>
+        <ol type="I">
+            <li>HTML5 Lists</li>
+            <li>HTML5 Tables</li>
+            <li>HTML5 Forms</li>
+            <li>Multimedia Elements</li>
+            <li>Form Validation</li>
+        </ol>
+    </section>
+
+    <!-- External Image -->
+    <section>
+        <h2>Inspiration Image</h2>
+        <img src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg" alt="Beautiful nature from Pexels" width="600">
+    </section>
+
+    <!-- Table of Contacts -->
+    <section>
+        <h2>Contact List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alice Johnson</td>
+                    <td>123 Elm Street</td>
+                    <td>+254757556066</td>
+                    <td>alice@example.com</td>
+                </tr>
+                <tr>
+                    <td>Brian Smith</td>
+                    <td>456 Oak Lane</td>
+                    <td>+254757384759</td>
+                    <td>brian@example.com</td>
+                </tr>
+                <tr>
+                    <td>Catherine Lee</td>
+                    <td>789 Pine Blvd</td>
+                    <td>+254757556067</td>
+                    <td>catherine@example.com</td>
+                </tr>
+                <tr>
+                    <td>Daniel Ray</td>
+                    <td>321 Maple Ave</td>
+                    <td>+254757395837</td>
+                    <td>daniel@example.com</td>
+                </tr>
+                <tr>
+                    <td>Eva Chen</td>
+                    <td>147 Birch Road</td>
+                    <td>+254764839204</td>
+                    <td>eva@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <!-- Name -->
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+            <!-- Email -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required><br><br>
+
+            <!-- Password -->
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Create a password" required minlength="6"><br><br>
+
+            <!-- Date -->
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <!-- Dropdown -->
+            <label for="country">Country:</label><br>
+            <select id="country" name="country" required>
+                <option value="">--Select--</option>
+                <option value="usa">Kenya</option>
+                <option value="uk">Uganda</option>
+                <option value="canada">Tanzania</option>
+                <option value="australia">Rwanda</option>
+            </select><br><br>
+
+            <!-- Radio Buttons -->
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <!-- Checkboxes -->
+            <label>Interests:</label><br>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label><br>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label><br>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label><br><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Abgael</p>
+    </footer>
+
+</body>
+</html>
